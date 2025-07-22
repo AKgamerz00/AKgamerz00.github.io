@@ -5,11 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Akshya Kashyap - Portfolio</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       background: #fdfbfb;
       color: #333;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     header {
@@ -24,6 +34,11 @@
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffea00;
     }
 
     .hero {
@@ -31,6 +46,12 @@
       color: #fff;
       text-align: center;
       padding: 60px 20px;
+      animation: slideUp 1s ease-in;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
     }
 
     .section {
@@ -44,14 +65,22 @@
       margin-bottom: 20px;
       text-align: center;
       font-size: 28px;
+      position: relative;
     }
 
     .card {
       background: linear-gradient(to right, #e0c3fc, #8ec5fc);
       padding: 20px;
-      margin: 15px 0;
+      margin: 20px 0;
       border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     }
 
     ul {
@@ -64,6 +93,7 @@
       text-align: center;
       padding: 20px;
       font-size: 14px;
+      animation: fadeIn 2s ease-in;
     }
 
     @media (max-width: 600px) {
@@ -132,12 +162,12 @@
   <section class="section" id="contact">
     <h2>📞 Contact</h2>
     <div class="card">
-      <p>Reach out through school or contact parents for more details.</p>
+      <p>You can reach out through school or contact parents for more details.</p>
     </div>
   </section>
 
   <footer>
-    &copy; 2025 Akshya Kashyap | Designed with 💖
+    &copy; 2025 Akshya Kashyap | Designed with 💖 | All rights reserved.
   </footer>
 
 </body>
