@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Akshya Kashyap – Portfolio</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
   <header>
-    <h1>Akshya Kashyap</h1>
-    <p>Class 9 Jasmine, DAV Public School, Ghaziabad</p>
+    <h1>Akshya Kashyap</h1>
+    <p>Class 9 Jasmine, DAV Public School, Ghaziabad</p>
     <nav>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -20,10 +19,10 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I’m a Class 9 student from Ghaziabad with strong skills in Microsoft Office and leadership. I’ve completed courses in Microsoft Office and ChatGPT.</p>
+    <p>A Class 9 student from Ghaziabad, proficient in Microsoft Office tools and leadership. Completed courses in Microsoft Office and ChatGPT.</p>
     <ul>
       <li><strong>DOB:</strong> 20 August 2011</li>
-      <li><strong>Location:</strong> Rahul Vihar 2, Ghaziabad</li>
+      <li><strong>Location:</strong> Rahul Vihar 2, Ghaziabad</li>
       <li><strong>Languages:</strong> English & Hindi</li>
     </ul>
   </section>
@@ -31,7 +30,7 @@
   <section id="skills">
     <h2>Skills</h2>
     <ul>
-      <li>Word, Excel, PowerPoint, Project, Outlook</li>
+      <li>Microsoft Word • Excel • PowerPoint • Project • Outlook</li>
       <li>Spreadsheet management</li>
       <li>Group leadership & strategic planning</li>
     </ul>
@@ -41,7 +40,7 @@
     <h2>Contact & Social Links</h2>
     <p>📞 9319774088</p>
     <p>✉️ akshyakashyap41@gmail.com</p>
-    <ul>
+    <ul class="social">
       <li><a href="https://www.linkedin.com/in/akshya-kashyap-s-o-jaggan-kashyap-60572a297" target="_blank">LinkedIn</a></li>
       <li><a href="https://www.instagram.com/_pirate_hunter__" target="_blank">Instagram</a></li>
       <li><a href="https://www.facebook.com/share/1CxiaCD7FR/" target="_blank">Facebook</a></li>
@@ -51,6 +50,5 @@
   <footer>
     <p>&copy; 2025 Akshya Kashyap</p>
   </footer>
-
 </body>
 </html>
