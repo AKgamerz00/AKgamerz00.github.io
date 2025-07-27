@@ -1,17 +1,16 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Akshya Kashyap – Portfolio</title>
+  <title>Akshya Kashyap – Portfolio</title>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
   <header>
-    <h1>Akshya Kashyap</h1>
-    <p>Class 9 Jasmine, DAV Public School, Ghaziabad</p>
+    <h1>Akshya Kashyap</h1>
+    <p>Class 9 Jasmine, DAV Public School, Ghaziabad</p>
     <nav>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -21,10 +20,10 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I’m a Class 9 student from Ghaziabad with a strong skillset in Microsoft Office tools and leadership abilities. I’ve completed courses in Microsoft Office and ChatGPT.</p>
+    <p>I’m a Class 9 student from Ghaziabad with strong skills in Microsoft Office and leadership. I’ve completed courses in Microsoft Office and ChatGPT.</p>
     <ul>
-      <li><strong>Date of Birth:</strong> 20 August 2011</li>
-      <li><strong>Location:</strong> Rahul Vihar 2, Ghaziabad</li>
+      <li><strong>DOB:</strong> 20 August 2011</li>
+      <li><strong>Location:</strong> Rahul Vihar 2, Ghaziabad</li>
       <li><strong>Languages:</strong> English & Hindi</li>
     </ul>
   </section>
@@ -32,7 +31,7 @@
   <section id="skills">
     <h2>Skills</h2>
     <ul>
-      <li>Microsoft Word, Excel, PowerPoint, Project, Outlook</li>
+      <li>Word, Excel, PowerPoint, Project, Outlook</li>
       <li>Spreadsheet management</li>
       <li>Group leadership & strategic planning</li>
     </ul>
@@ -43,61 +42,15 @@
     <p>📞 9319774088</p>
     <p>✉️ akshyakashyap41@gmail.com</p>
     <ul>
-      <li><a href="https://www.linkedin.com/in/akshya-kashyap‑s‑o‑jaggan‑kashyap‑60572a297" target="_blank">LinkedIn</a></li>
+      <li><a href="https://www.linkedin.com/in/akshya-kashyap-s-o-jaggan-kashyap-60572a297" target="_blank">LinkedIn</a></li>
       <li><a href="https://www.instagram.com/_pirate_hunter__" target="_blank">Instagram</a></li>
       <li><a href="https://www.facebook.com/share/1CxiaCD7FR/" target="_blank">Facebook</a></li>
     </ul>
   </section>
 
   <footer>
-    <p>&copy; 2025 Akshya Kashyap</p>
+    <p>&copy; 2025 Akshya Kashyap</p>
   </footer>
 
 </body>
 </html>
-/* styles.css */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-}
-
-header {
-  background: #4a90e2;
-  color: white;
-  text-align: center;
-  padding: 2rem 1rem;
-}
-
-header nav a {
-  color: white;
-  margin: 0 1rem;
-  text-decoration: none;
-}
-
-section {
-  padding: 2rem 1rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-section h2 {
-  border-bottom: 2px solid #4a90e2;
-  padding-bottom: 0.5rem;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  margin: 0.5rem 0;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #f0f0f0;
-}
