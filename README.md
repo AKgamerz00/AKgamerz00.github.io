@@ -52,3 +52,118 @@
   </footer>
 </body>
 </html>
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background: #fafafa;
+}
+
+header {
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  margin: 0; font-size: 2.8rem;
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform .3s, background .3s;
+}
+
+header nav a:hover {
+  background: rgba(255,255,255,0.3);
+  border-radius: 8px;
+  transform: translateY(-2px);
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 2.5rem 1rem;
+}
+
+section h2 {
+  font-size: 1.9rem;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+}
+
+section h2::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background: #7873f5;
+  bottom: 0;
+  left: 0;
+}
+
+#about { background: #fff7f8; border-radius: 8px; }
+
+#skills {
+  background: #f3faff;
+  border-radius: 8px;
+}
+
+#skills ul li {
+  margin: 0.6rem 0;
+  padding: 0.8rem;
+  background: #e3eaff;
+  border-radius: 6px;
+  transition: transform .3s, background .3s;
+}
+
+#skills ul li:hover {
+  background: #d0d4f7;
+  transform: translateX(4px);
+}
+
+#contact {
+  background: linear-gradient(120deg, #c1fba4, #fecdcd);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.social { list-style: none; padding: 0; }
+.social li { display: inline; margin: 0 1rem; }
+
+.social a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.1rem;
+  transition: color .3s;
+}
+
+.social a:hover {
+  color: #ff6ec4;
+}
+
+footer {
+  text-align: center;
+  padding: 1.2rem;
+  background: #f0f0f0;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media(max-width: 600px) {
+  header h1 { font-size: 2.2rem; }
+  header nav a { margin: 0 .5rem; padding: .5rem 1rem; }
+}
